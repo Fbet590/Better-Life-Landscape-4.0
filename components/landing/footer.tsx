@@ -1,0 +1,25 @@
+import Link from "next/link"
+
+export function Footer() {
+  return (
+    <footer className="bg-primary text-primary-foreground">
+      <div className="container mx-auto px-4 py-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6" />
+
+        {/* Bottom Bar */}
+        <div className="mt-8 pt-6 border-t border-primary-foreground/20">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="flex gap-6 text-sm opacity-70">
+              <Link href="#" className="hover:opacity-100">
+                Privacy Policy
+              </Link>
+              <Link href="#" className="hover:opacity-100">
+                Terms of Service
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}

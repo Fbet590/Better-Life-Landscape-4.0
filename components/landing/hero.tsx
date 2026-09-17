@@ -210,10 +210,9 @@ export function Hero() {
             <div className="text-primary-foreground lg:col-span-3">
               <h1 className="font-[family-name:var(--font-poppins)] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-balance">
                 Stop Looking at That Ugly Backyard!{" "}
-                <span className="text-accent">Fix it for $8,500 Flat.</span>
               </h1>
               <p className="mt-6 text-lg md:text-xl opacity-90 leading-relaxed max-w-xl">
-                No more, no less. See if your project fits the scope.
+                See if your project fits the scope.
               </p>
 
               {/* Stats */}
@@ -245,13 +244,13 @@ export function Hero() {
                 {/* Form Header */}
                 <div className="text-center mb-5">
                   <p className="font-[family-name:var(--font-poppins)] text-base md:text-lg font-extrabold text-foreground tracking-wide uppercase mb-2">
-                    GET A BACKYARD MAKE OVER. FINAL PRICE? $8,500.
+                    GET A BACKYARD MAKE OVER.
                   </p>
                   <h2 className="font-[family-name:var(--font-poppins)] text-lg font-bold text-foreground">
                     <span className="text-accent">Not Every Home Qualifies.</span> Yours Might.
                   </h2>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    Fill out the form below and find out if your space is a fit for our $8.5k flat rate package.
+                    Fill out the form below and find out if your space is a fit.
                   </p>
                 </div>
 

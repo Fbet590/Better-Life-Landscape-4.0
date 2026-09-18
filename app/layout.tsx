@@ -71,17 +71,17 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
+      </head>
+      <body className={`${montserrat.variable} ${playfair.variable} ${poppins.variable} ${workSans.variable} font-sans antialiased`}>
         <noscript>
-          <img 
-            height="1" 
-            width="1" 
+          <img
+            height="1"
+            width="1"
             style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=1326783655373643&ev=PageView&noscript=1"
             alt=""
           />
         </noscript>
-      </head>
-      <body className={`${montserrat.variable} ${playfair.variable} ${poppins.variable} ${workSans.variable} font-sans antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
